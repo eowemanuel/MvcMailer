@@ -6,11 +6,11 @@ body using regular ASP.NET MVC views. This one works with .Net 4.0 for now.
 
 See [MvcMailer Wiki](https://github.com/smsohan/MvcMailer/wiki/MvcMailer-Step-by-Step-Guide)
 
-##Visual Studio 2103 NOTE
+##Visual Studio 2013 NOTE
 
  Scaffolding in Visual Studio 2013 is changing (and has changed) and won't be supported forever in its current form. However, there is a -preelease vs2013 version of the T4Scaffolder and if you want to use MvcMailer scaffolding with VS2013, then you'll need the right package version! 
 
-* Good news - This all work fine under VS3013 when the it's run _as Admin_.
+* Good news - This all work fine under VS2013 when the it's run _as Admin_.
 * Bad news - Because this NuGet will have a dependency on a -pre (prelease) package, then it becomes prerelease per http://docs.nuget.org/docs/reference/versioning#Prerelease_Versions
 
 That means, you would **install the VS2013 version of MvcMailer** like this:
