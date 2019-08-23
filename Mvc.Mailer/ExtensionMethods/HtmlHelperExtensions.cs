@@ -4,7 +4,7 @@ using System.Web;
 namespace Mvc.Mailer {
     public static class HtmlHelperExtensions {
         /// <summary>
-        /// Produces the tag for inline image
+        /// Produces the tag for inline image test 2
         /// </summary>
         /// <param name="htmlHelper"></param>
         /// <param name="contentId">e.g. logo</param>
