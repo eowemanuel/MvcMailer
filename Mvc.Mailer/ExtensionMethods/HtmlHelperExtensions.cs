@@ -5,6 +5,7 @@ namespace Mvc.Mailer {
     public static class HtmlHelperExtensions {
         /// <summary>
         /// Produces the tag for inline image test test 2
+        /// //test
         /// </summary>
         /// <param name="htmlHelper"></param>
         /// <param name="contentId">e.g. logo</param>
