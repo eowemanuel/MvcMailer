@@ -13,5 +13,7 @@ namespace Mvc.Mailer {
         public static IHtmlString InlineImage(this HtmlHelper htmlHelper, string contentId, string alt = "") {
             return htmlHelper.Raw(string.Format("<img src=\"cid:{0}\" alt=\"{1}\"/>", contentId, alt));
         }
+
+        //new method
     }
 }
