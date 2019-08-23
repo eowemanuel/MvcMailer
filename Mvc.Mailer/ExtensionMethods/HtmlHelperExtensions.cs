@@ -17,5 +17,7 @@ namespace Mvc.Mailer {
         //new method
         
         //other method
+        
+        //other method
     }
 }
