@@ -7,7 +7,7 @@ namespace Mvc.Mailer {
         public static readonly string BASE_URL_KEY = "MvcMailer.BaseUrl";
 
         /// <summary>
-        /// This extension method will help generating Absolute Urls in the mailer or other views
+        /// This extension method will help generating Absolute Urls in the mailer or other views test
         /// </summary>
         /// <param name="urlHelper">The object that gets the extended behavior</param>
         /// <param name="relativeOrAbsoluteUrl">A relative or absolute URL to convert to Absolute</param>
