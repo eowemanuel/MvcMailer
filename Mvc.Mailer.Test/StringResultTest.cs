@@ -16,6 +16,7 @@ namespace Mvc.Mailer.Test {
         [Test, ExpectedException(typeof(ArgumentNullException))]
         public void ExecuteResultWithNullContextShouldThrowArgumentNullException() {
             _stringResult.ExecuteResult(null);
+            //
         }
 
         [Test, ExpectedException(typeof(ArgumentNullException))]
